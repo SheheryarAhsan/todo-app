@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    min-width: 100vh;
+    /* min-height: 100vh; */
     padding: 10px;
     background-color: var(--background);
     display: flex;
@@ -151,7 +151,7 @@ input[type="checkbox"]:checked ~ .todo-text {
     html {
         font-size: 12pt;
     }
-
+    
     #add-button {
         position: unset;
         width: 100%;
